@@ -11,9 +11,9 @@
 
 int isNUM(char num[])
 {
-	int i, 1 = strlen(num);
+	int i, l = strlen(num);
 
-	for (i = 0 ; i < 1 ; i++)
+	for (i = 0 ; i < l ; i++)
 		if (!isdigit(num[i]))
 			return (1);
 	return (0);
