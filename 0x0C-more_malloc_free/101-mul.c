@@ -96,7 +96,7 @@ int main(int argc, char **argv)
 {
 	char *n1 = argv[1], *n2 = argv[2];
 
-	if (argc != 3 || chec_number(n1) || check_number(n2))
+	if (argc != 3 || check_number(n1) || check_number(n2))
 		error_exit();
 	if (*n1 == '0' || *n2 == '0')
 	{
