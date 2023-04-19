@@ -16,7 +16,7 @@ int op_add(int a, int b)
  * op_sub - subtracts 2 int
  * @a: int
  * @b: int
- * Retuen: difference
+ * Return: difference
  */
 
 int op_sub(int a, int  b)
@@ -52,7 +52,7 @@ int op_div(int a, int b)
  * op_mod - modulo 2 int
  * @a: int
  * @b: int
- * Return: remainder
+ * Return: the remainder
  */
 
 int op_mod(int a, int b)
