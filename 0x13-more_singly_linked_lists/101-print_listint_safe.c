@@ -31,7 +31,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	size_t node 0, a;
+	size_t node = 0, a;
 	const listint_t **list = NULL;
 
 	while (head != NULL)
